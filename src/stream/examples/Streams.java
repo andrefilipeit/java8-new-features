@@ -56,7 +56,7 @@ class OrderProductByPrice implements Comparator<Product>
     } 
 } 
 
-public class StreamsExample {
+public class Streams {
 
 	public static void main(String[] args) {
 		
