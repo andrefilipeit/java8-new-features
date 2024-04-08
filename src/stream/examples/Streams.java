@@ -83,7 +83,7 @@ public class Streams {
 		//Sort the list of refrigerators by increasing price
 		Collections.sort(listRefrigerator, new OrderProductByPrice());
 		
-		//Creates a list of refrigerator names only in capital letters
+		//Creates a list of refrigerator names only in CAPITAL LETTERS
 		List<String> listWithNameRefrigerator = new ArrayList<String>();
 		for(Product p : listRefrigerator) {
 			listWithNameRefrigerator.add(p.getName().toUpperCase());
